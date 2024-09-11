@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet');
+
+/*
+  .oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+/* 
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+ */
+
+ /* 
+ .merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+
+ */
+ /*  
+ .merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+
+ */
+ 
+
+html {
+    background-color: #FFFEF4;
+    background-image: url("images/dots.png");
+    background-repeat: repeat-y;
+    font-family: "Merriweather",Georgia, 'Times New Roman', Times, serif;
+    padding-left: 40px;
+}
+
+body {
+    margin-top: 12.1rem;
+    line-height: 1.5;
+}
+
+.favorite-icon {
+    color: #AE053E;
+    left: -4rem;
+    position: absolute;
+    top: 1.2rem;
+}
+
+h1, h2, h3 {
+    color: #AE053E;
+    font-family: "Oswald",Arial, "helvetica Neue", Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    border-bottom: 5px solid #AE053E;
+    font-size: 2rem;
+    margin: 4rem 0rem 2rem 0rem;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+header {
+    background-color: #0070B0;
+    color: white;
+    left: 0;
+    padding: .75rem 1rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url("images/challenge-hero.jpg");
+    background-size: contain;
+    height: 38rem;
+    text-align: center;
+}
+
+.site-intro {
+    font-size: 1.25rem;
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: 38rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}
+
+.site-nav-list {
+    padding-left: 0;
+}
+
+.site-nav-list li {
+    display: inline;
+}
+
+.title {
+    text-shadow: 5px 5px 0px white;
+}
+
+.wrapper {
+    position: relative;
+}
+
+/* links  */
+
+
+
+a {
+    color: #006EAC;
+}
+
+a:visited {
+    color: #2A4758;
+}
+
+a:hover {
+    background-color: #006EAC;
+    color: #fff;
+}
+
+a:focus {
+    background-color: #AE053E;
+    color: white;
+}
+
+a:active {
+    background-color: black;
+    color: white;
+}
+
+.call-to-action {
+    background-color: #0070B0;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 6px;
+    color: white;
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+}
+
+/* images */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.first-paragraph-iko, .second-paragraph-iko {
+    text-wrap: wrap;
+    margin: 1rem;
+}
+
+
+.design-example {
+    float: right;
+    margin: 0;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    max-width: 30%;
+}
+
+
